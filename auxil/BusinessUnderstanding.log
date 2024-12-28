@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.23)  24 DEC 2024 23:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.12.23)  28 DEC 2024 22:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -116,33 +116,33 @@ ex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count276
 \l__pdf_internal_box=\box52
-)
-No file BusinessUnderstanding.aux.
+) (C:/Users\user\PycharmProjects\prova\auxil\BusinessUnderstanding.aux)
 \openout1 = `BusinessUnderstanding.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Info: Redefining \it@ocap on input line 26.
-LaTeX Info: Redefining \it@ccap on input line 26.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Info: Redefining \it@ocap on input line 33.
+LaTeX Info: Redefining \it@ccap on input line 33.
+
 
 File italian.ldf warning: 
 italian.ldf    With OT1 encoding guillemets are poorly faked
 italian.ldf    Use T1 encoding
 italian.ldf    or specify a font with command \CaporaliFrom
 italian.ldf    See the documentation concerning the babel-italian typesetting
-italian.ldf    on input line 26.
+italian.ldf    on input line 33.
 
 
 (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mki
@@ -173,35 +173,40 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 <images/unisa.jpg, id=1, 183.31903pt x 183.31903pt>
 File: images/unisa.jpg Graphic file (type jpg)
 <use images/unisa.jpg>
-Package pdftex.def Info: images/unisa.jpg  used on input line 28.
-(pdftex.def)             Requested size: 91.65929pt x 91.65929pt.
+Package pdftex.def Info: images/unisa.jpg  used on input line 36.
+(pdftex.def)             Requested size: 54.99612pt x 54.99612pt.
 
 
-LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <36> not available
-(Font)              size <24.88> substituted on input line 28.
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <24> not available
+(Font)              size <24.88> substituted on input line 36.
 
 
-LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <36> not available
-(Font)              size <24.88> substituted on input line 28.
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <24> not available
+(Font)              size <24.88> substituted on input line 36.
 
+<images/logo.jpg, id=2, 642.4pt x 642.4pt>
+File: images/logo.jpg Graphic file (type jpg)
+<use images/logo.jpg>
+Package pdftex.def Info: images/logo.jpg  used on input line 36.
+(pdftex.def)             Requested size: 192.72148pt x 192.72148pt.
 
-BusinessUnderstanding.tex:28: LaTeX Error: \begin{document} ended by \end{cente
+BusinessUnderstanding.tex:36: LaTeX Error: \begin{document} ended by \end{cente
 r}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.28 \maketitle
+l.36 \maketitle
                
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-BusinessUnderstanding.tex:28: Missing } inserted.
+BusinessUnderstanding.tex:36: Missing } inserted.
 <inserted text> 
                 }
-l.28 \maketitle
+l.36 \maketitle
                
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -209,37 +214,37 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-BusinessUnderstanding.tex:28: Too many }'s.
+BusinessUnderstanding.tex:36: Too many }'s.
 <recently read> }
                  
-l.28 \maketitle
+l.36 \maketitle
                
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 28.
+(Font)              <12> on input line 36.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 28.
+(Font)              <8> on input line 36.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 28.
-BusinessUnderstanding.tex:28: Extra \endgroup.
+(Font)              <6> on input line 36.
+BusinessUnderstanding.tex:36: Extra \endgroup.
 \maketitle ...pagestyle {plain}\@thanks \endgroup 
                                                   \@bscontmark 
-l.28 \maketitle
+l.36 \maketitle
                
 Things are pretty mixed up, but I think the worst is over.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 32.
+(Font)              <7> on input line 41.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 32.
+(Font)              <5> on input line 41.
 
 
 [1
 
 {C:/Users/user/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./images/unis
-a.jpg>]
+a.jpg> <./images/logo.jpg>]
 
 [2] (C:/Users\user\PycharmProjects\prova\auxil\BusinessUnderstanding.aux)
  ***********
@@ -249,29 +254,26 @@ L3 programming layer <2024-11-02>
 
 
 LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 11.12pt have occurred.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+(Font)              up to 0.88pt have occurred.
 
  ) 
 Here is how much of TeX's memory you used:
- 3374 strings out of 473650
- 56006 string characters out of 5718416
- 466004 words of memory out of 5000000
- 26478 multiletter control sequences out of 15000+600000
+ 3390 strings out of 473650
+ 56445 string characters out of 5718416
+ 466216 words of memory out of 5000000
+ 26492 multiletter control sequences out of 15000+600000
  562324 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,8n,65p,250b,238s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,8n,65p,250b,239s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
 mbx10.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
 nts/cm/cmbx12.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/publ
 ic/amsfonts/cm/cmr10.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/typ
 e1/public/amsfonts/cm/cmr12.pfb>
 Output written on C:/Users\user\PycharmProjects\prova\out\BusinessUnderstanding
-.pdf (2 pages, 229447 bytes).
+.pdf (2 pages, 331298 bytes).
 PDF statistics:
- 30 PDF objects out of 1000 (max. 8388607)
+ 31 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

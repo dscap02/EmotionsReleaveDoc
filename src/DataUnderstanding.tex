@@ -1,0 +1,87 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{xcolor} % Required for inserting images
+\title{Documento di Data understanding}
+\author{}
+\date{}
+
+\begin{document}
+\begin{center}
+\includegraphics[scale = 0.5]{images/unisa}
+\vspace{0.5cm}
+\section*{\fontsize{20pt}{24pt}\selectfont\textbf{\textcolor[HTML]{808080}{UNIVERSIT\`A DEGLI STUDI DI SALERNO}}}
+\vspace{0.5cm}
+    \includegraphics[scale = 0.3]{images/logo}
+
+\fontsize{14}{18pt} \selectfont \textbf{Progetto di Intelligenza Artificiale}
+
+\vspace{1cm}
+
+\begin{tabular}{|p{0.6\linewidth}|p{0.3\linewidth}|}
+\hline
+    \textbf{Studente} & \textbf{Matricola} \\
+\hline
+    Scaparra Daniele Pio & 0512116260 \\
+\hline
+    Fasolino Pietro & 05121XXXXX \\
+\hline
+    Vitulano Antonio & 05121XXXXX \\
+\hline
+\end{tabular}
+
+\end{center}
+
+\maketitle
+    
+    \section{Raccolta dei dati}\label{sec:raccolta-dei-dati}
+Per la raccolta dei dati abbiamo deciso di affidarci al dataset GoEmotions, un dataset di annotazioni umane basato su 58.000 commenti presi dai subreddit più popolari in lingua inglese della piattaforma Reddit, i quali sono stati poi etichettati in 27 (+1) emozioni diverse, ma questo aspetto verrà approfondito nella sezione relativa all' \textit{Analisi dei dati}.
+La scelta dell'utilizzo di questo dataset come base per il nostro progetto è legata a due motivi in particolare: la natura del dataset e l'approccio usato per la creazione del dataset.
+Infatti GoEmotions è uno dei quei dataset, inerenti al campo della Sentimental Recognition, che tratta dati testuali (i commenti sul social Reddit sono testi) che proprio si va a sposare bene con quello che rappresenta e vuole essere EmotionsReleave: un modello capace di riconoscere emozioni e fornire report basato su prompt testuali rappresentati conversazione tra due individui.
+L'approccio fine-grained\footnote{
+Nel contesto dell'elaborazione delle emozioni o del machine learning, un'analisi fine-grained implica che il modello o il sistema è progettato per distinguere tra un'ampia gamma di categorie o sfumature, invece di raggrupparle in pochi gruppi generici
+} di GoEmotions lo distingue da altri dataset che operano nello stesso campo, ma categorizzano le emozioni solamente in tre macro categorie: positivo, negativo, neutro; questo dataset, invece, risponde alle nostre esigenze di avere una classificazione più specifica e quanto meno generica possibile, in quanto il report che ci prefissiamo di portare in output deve essere quanto meno generico e più specifico possibile rispetto alla conversarzione data e le 27 categorie del dataset ci vengono in aiuto.
+    \section{Analisi dei dati} \label{sec:analisi-dei-dati}
+Go emotions è un dataset di 58k elementi,esso è composto dai commenti lasciati dagli utenti di  reddit \footnote{Reddit è un sito Internet di social news, intrattenimento e forum dove gli utenti registrati (chiamati redditors) possono pubblicare contenuti sotto forma di post testuali o di collegamenti ipertestuali (link). Gli utenti, inoltre, possono attribuire una valutazione, ‘su’ o ‘giù’ (comunemente chiamati in inglese ‘upvote’ e ‘downvote’), ai contenuti pubblicati: tali valutazioni determinano, poi, posizione e visibilità dei vari contenuti sulle pagine del sito. I contenuti del sito sono organizzati in aree di interesse chiamate subreddit.} ,ad ogni messaggio è associato un \textbf{emozione}.Per l'esatezza ci sono 27 emozioni,più l'emozione neuta,per un totale di 28 emozioni,
+il datset è stato costruito a mano, e come particolarità ha che a un singolo messaggio possono essere associati più stati
+Quando hanno creato delle il dataset,hanno fatto delle opreazioni di mask,cioè hanno deciso di sostituire i nomi propri che si riferivano alle persone con l'attributo \textbf{[NAME]} e i termini religiosi con l'attributo \textbf{[RELIGION]}.
+Il dataset contiene per l'esattezza 12emozioni positive,11 negative,4 ambigue e 1 neutrale.
+Dato che è un dataset sulle emozioni giustamente , ci sono più messaggi con un emozione di un altro,questo perchè è più difficile trovare un messaggio con la targhetta disgusto
+
+
+di seguito verrano riportagte tutte le emozioni che ci sono nel dataset,con una piccola descrizione.
+\begin{itemize}
+    \item \textbf{Ammirazione}: Provare qualcosa di impressionante o degno di rispetto.
+    \item \textbf{Divertimento}: Trovare qualcosa di divertente o intrattenersi.
+    \item \textbf{Rabbia}: Un forte sentimento di dispiacere o antagonismo.
+    \item \textbf{Fastidio}: Lieve rabbia o irritazione.
+    \item \textbf{Approvazione}: Avere o esprimere un'opinione favorevole.
+    \item \textbf{Premura}: Mostrare gentilezza e interesse per gli altri.
+    \item \textbf{Confusione}: Mancanza di comprensione, incertezza.
+    \item \textbf{Curiosità}: Un forte desiderio di conoscere o apprendere qualcosa.
+    \item \textbf{Desiderio}: Un forte sentimento di voler qualcosa o di sperare che accada.
+    \item \textbf{Delusione}: Tristezza o dispiacere causati dal non raggiungimento delle aspettative.
+    \item \textbf{Disapprovazione}: Avere o esprimere un'opinione sfavorevole.
+    \item \textbf{Disgusto}: Repulsione o forte disapprovazione verso qualcosa di sgradevole o offensivo.
+    \item \textbf{Imbarazzo}: Imbarazzo, vergogna o senso di disagio.
+    \item \textbf{Entusiasmo}: Sentimento di grande eccitazione e impazienza.
+    \item \textbf{Paura}: Essere spaventati o preoccupati.
+    \item \textbf{Gratitudine}: Un sentimento di riconoscenza e apprezzamento.
+    \item \textbf{Dolore}: Tristezza intensa, specialmente causata dalla perdita di qualcuno.
+    \item \textbf{Gioia}: Sentirsi felici e contenti.
+    \item \textbf{Amore}: Una forte emozione positiva di affetto e amore.
+    \item \textbf{Nervosismo}: Apprensione, preoccupazione o ansia.
+    \item \textbf{Ottimismo}: Speranza e fiducia riguardo al futuro.
+    \item \textbf{Orgoglio}: Piacere o soddisfazione per i propri successi o quelli di persone vicine.
+    \item \textbf{Consapevolezza}: Diventare consapevoli di qualcosa.
+    \item \textbf{Sollievo}: Rassicurazione e rilassamento dopo uno stato di ansia o stress.
+    \item \textbf{Rimorso}: Rimpianto o senso di colpa.
+    \item \textbf{Tristezza}: Dolore emotivo o sofferenza.
+    \item \textbf{Sorpresa}: Sentirsi stupiti o sorpresi da qualcosa di inaspettato.
+\end{itemize}
+
+    \section{Qualità dei dati}\label{sec:qualita-dei-dati}
+    \section{Identificazione delle variabili chiave e delle correlazioni}\label{sec:identificazione-delle-variabili-chiave-e-delle-correlazioni}
+
+
+\end{document}
